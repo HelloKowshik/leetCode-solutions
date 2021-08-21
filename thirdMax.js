@@ -25,7 +25,8 @@ const thirdMax = function (nums) {
       thirdMax = uniqueArr[i];
     }
   }
-  return [max, secondMax, thirdMax, nums, uniqueArr];
+  // return [max, secondMax, thirdMax, nums, uniqueArr];
+  return secondMax;
 };
 
 console.log(thirdMax(nums));
